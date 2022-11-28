@@ -2,7 +2,7 @@
   "name": "st4",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://nandinisharma225.github.io/st4",
+  "homepage": "https://nsafter.github.io/react_crud_app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
@@ -17,7 +17,6 @@
     "bootstrap": "^5.2.2",
     "darkmode-js": "^1.5.7",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^4.0.0",
     "jquery": "^3.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,8 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
