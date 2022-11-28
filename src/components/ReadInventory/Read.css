@@ -1,0 +1,11 @@
+.control_btn {
+  cursor: pointer;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: #fb2576;
+  color: white;
+  font-size: 1.3rem;
+  border: 1px solid #fb2576;
+  border-radius: 3px;
+}

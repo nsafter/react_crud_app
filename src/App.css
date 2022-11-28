@@ -1,0 +1,30 @@
+.container {
+  border-top: 4px solid #d58bdd;
+}
+
+.navbar {
+  list-style-type: none;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.nav-item {
+  float: right;
+  padding-top: 23px;
+}
+
+.nav-link {
+  color: #d58bdd;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-right: 40px;
+  text-decoration: none;
+  line-height: 3.5rem;
+}
+
+.logoimg {
+  display: inline;
+  height: 100px;
+  width: 170px;
+}
