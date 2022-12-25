@@ -2,7 +2,7 @@
   "name": "st4",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nsafter.github.io/react_crud_app",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
@@ -15,6 +15,7 @@
     "animate.css": "^4.1.1",
     "axios": "^1.1.2",
     "bootstrap": "^5.2.2",
+    "concurrently": "^7.6.0",
     "darkmode-js": "^1.5.7",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.1",
@@ -25,7 +26,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"json-server --watch server/db.json --port 5000 \" \"react-scripts start\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
